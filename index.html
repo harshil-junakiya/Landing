@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harshil Junakiya</title>
+  <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/avatar-1.png" alt="Harshil Junakiya" width="80">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Harshil Junakiya">Harshil Junakiya</h1>
+          <p class="title">Full-Stack Developer</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:harshiljunakiya123@gmail.com" class="contact-link">harshiljunakiya123@gmail.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+919727824805" class="contact-link">+91 9510732993</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="2002-12-11">December 11, 2002</time>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Palanpur, Gujarat, India</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://github.com/harshil-junakiya" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/aryandarji07/" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+        </ul>
+      </nav>
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+        <section class="about-text">
+          <p>
+            Hello! I'm <b>Harshil Junakiya</b>, a final-year Information Technology student at <strong>NIT
+              Srinagar</strong> with a deep passion for Full-Stack development and problem-solving. I specialize in
+            building real-time, interactive and scalable web applications and am always eager to explore new
+            technologies, solve complex problems, and contribute to meaningful projects.
+          </p>
+          <p>
+            Over the years, I've worked on several impactful projects including a Google Drive clone, budget tracker,
+            doctor-patient appointment system, and many more. I enjoy experimenting with real-time interaction features
+            like speech-to-text conversion, sign language translation, and dynamic dashboards using React and Next.js.
+          </p>
+          <p>
+            I'm currently seeking <strong>full-time placement opportunities</strong> where I can apply my skills, work
+            on innovative projects, and grow in a collaborative environment.
+          </p>
+          <p>
+            <br>
+            <br>• Frontend: HTML, CSS, JavaScript, React.js, jQuery, Next.js
+            <br>• Backend: Node.js, Express.js, SQL, MongoDB
+            <br>• Tools: Git, GitHub, Postman, Firebase
+            <br>• Experience collaborating with UI/UX designers and testers
+            <br>• Strong in problem-solving and always excited to take on new challenges
+          </p>
+        </section>
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="" width="80" data-modal-img>
+              </figure>
+            </div>
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title></h4>
+              <div data-modal-text>
+                <p></p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </article>
+      <article class="resume" data-page="resume">
+
+        <header class="header">
+          <h2 class="h2 article-title">Resume</h2>
+          <a href="./assets/Rezume.pdf" class="download-button"  target="_blank" class="download-button" title="View Resume PDF">
+            <ion-icon name="cloud-download" style="font-size: 22px;"></ion-icon>
+          </a>
+          <div class="spacer"></div>
+        </header>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">National Institute of Technology</h4>
+              <span>2021 Dec — Present</span>
+              <p class="timeline-text">
+                Bachelor of Engineering - Information Technology
+                <br>
+                Grade: 7.66/10
+                </br>
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">G D Goenka International School</h4>
+              <span>2018 June — 2020 June</span>
+              <p class="timeline-text">
+                Intermediate
+                <br>
+                Grade: 88.2/100
+                </br>
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Work Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">SWE Intern — Ai4Bharat</h4>
+              <span>Feb 2024 — Dec 2023</span>
+              <p class="timeline-text">
+                Led a team collecting 500,000+ data points across Indian regional languages for AI model training.
+                Managed preprocessing of large multilingual datasets and collaborated on model testing for speaker
+                accuracy, sequence adherence, and bias detection.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+          <h5 class="h5 skills-title">Proficient in Web Development Technologies</h5>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">HTML</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">CSS</h5>
+                <data value="70">70%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
+                <data value="75">75%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+            </li>
+          </ul>
+          <h5 class="h5 skills-title">Experience with JavaScript Frameworks/Libraries</h5>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">React.js</h5>
+                <data value="70">70%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">JQuery</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+          </ul>
+          <h5 class="h5 skills-title">Familiarity with Backend Technologies</h5>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Node.js</h5>
+                <data value="70">70%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Express.js</h5>
+                <data value="65">65%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+            </li>
+          </ul>
+          <h5 class="h5 skills-title">Experience with Databases</h5>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">MongoDB (Non-SQL)</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">MySQL (SQL)</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+          </ul>
+          <h5 class="h5 skills-title">Experience with Version Control Systems</h5>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Git</h5>
+                <data value="65">65%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">GitHub</h5>
+                <data value="70">70%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+          </ul>
+          <h5 class="h5 skills-title">Experience With Web Development Tools</h5>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Figma</h5>
+                <data value="55">55%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 55%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">VS Code</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Replit</h5>
+                <data value="60">60%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+      <article class="portfolio" data-page="projects">
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+        <section class="projects">
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Creative</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Critical</button>
+              </li>
+            </ul>
+          </div>
+          <ul class="project-list">
+            <li class="project-item active">
+              <a href="https://github.com/harshil-junakiya/DocSync">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.png" alt="DocSync" loading="lazy">
+                </figure>
+                <h3 class="project-title">DocSync</h3>
+                <p class="project-category">Source Code</p>
+              </a>
+            </li>
+            <li class="project-item active" >
+              <a href="https://github.com/harshil-junakiya/cookConnect">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-2.png" alt="Cook Connect" loading="lazy">
+                </figure>
+                <h3 class="project-title">Cook Connect</h3>
+                <p class="project-category">Source Code</p>
+              </a>
+            </li>
+            <li class="project-item active" >
+              <a href="https://github.com/harshil-junakiya/task_managment">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-3.png" alt="Task-Managment" loading="lazy">
+                </figure>
+                <h3 class="project-title">Task-Managment</h3>
+                <p class="project-category">Source Code</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="critical">
+              <a href="https://github.com/harshil-junakiya/budget-tracker">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-4.png" alt="Budget Tracker" loading="lazy">
+                </figure>
+                <h3 class="project-title">Budget Tracker</h3>
+                <p class="project-category">Source Code</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="creative">
+              <a href="https://github.com/harshil-junakiya/student-exam-performance-prediction">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-5.png" alt="WhatsApp Messaging" loading="lazy">
+                </figure>
+                <h3 class="project-title">student-exam-performance-prediction</h3>
+                <p class="project-category">Source Code</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </div>
+  </main>
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
